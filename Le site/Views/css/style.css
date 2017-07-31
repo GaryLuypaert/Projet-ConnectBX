@@ -50,7 +50,7 @@ footer {
   background-color: #272727;
   height: 200px;
   width: 100%;
-  color: #A6ACAF;
+  color: #17202a;
   padding-top: 10px;
 
 }
@@ -78,6 +78,7 @@ footer {
 
 .newsletter {
   text-align: center;
+  margin-top: 10px;
 }
 
 #input-group {
@@ -92,11 +93,19 @@ footer {
 
 #btnNewsletter {
   border-radius: 0px 4px 4px 0px;
+  margin-left: -5px;
+}
+
+#btnNewsletter:hover {
+  border-radius: 0px 4px 4px 0px;
+  margin-left: -5px;
+  background-color: #2DAF37;
+  border-color: #2DAF37;
 }
 
 #copyright {
   text-align: center;
-  margin-top: 10px;
+  margin-top: 20px;
   padding-top: 25px;
   background-color: #2DAF37;
   width: 100%;
@@ -120,4 +129,37 @@ footer {
   border: 1px solid black;
   padding: 20px;
   margin: 10px;
+}
+
+#aPropos {
+  height: 900px;
+}
+
+#title-article-aPropos {
+  font-size: 24px;
+}
+
+#article-aPropos {
+  text-align: left;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #E8E0EF;
+  z-index: 2;
+  position: relative;
+  top: 80px;
+  padding: 15px;
+  opacity: 0.9;
+}
+
+#box-title-aPropos {
+  background-color: #F3F3F3;
+  width: 600px;
+  height: 125px;
+  z-index: 1;
+  position: absolute;
+  left: 350px;
+  bottom: 250px;
+  text-align: left;
+  padding: 10px 10px 10px 25px;
 }

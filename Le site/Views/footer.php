@@ -11,9 +11,11 @@
 	</div>
 <div class="row">
 	<div class="newsletter">
-		<div id="input-group">
-			<input type="text" class="form-control" placeholder="Votre adresse mail" id="inputNewsletter" style="float:left"/>
+		<div class="form-group">
+		<form class="form-inline">
+			<input type="text" class="form-control" placeholder="Votre adresse mail" id="inputNewsletter" />
 			<button type="button" class="btn btn-default" id="btnNewsletter">Inscription</button>
+			</form>
 		</div>
 	</div>
 </div>
